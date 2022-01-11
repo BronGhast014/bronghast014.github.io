@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Jekyll Serve",
+            "request": "launch",
+            "runtimeArgs": [
+                "serve"
+            ],
+            "runtimeExecutable": "jekyll",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "pwa-node"
+        }
+    ]
+}

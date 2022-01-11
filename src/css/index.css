@@ -1,0 +1,38 @@
+.main-logo-img {
+    max-width: 13%;
+    padding-top: 10px;
+}
+
+.main-nav {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.image-set {
+    list-style-type: none;
+    white-space: nowrap;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.nav-button {
+    width: 26%;
+    display: inline-block;
+    margin: 1%;
+}
+.nav-button:hover {
+    transition: bottom 0.2s, filter 0.2s;
+    position: relative;
+    /* filter: blur(0.3em); */
+    bottom: 10px;
+}
+
+.nav-button img {
+    max-width: 100%;
+    border-radius: 3%;
+}
+
+.nav-button .img-button-text {
+
+}
+ 
