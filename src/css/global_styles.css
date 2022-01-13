@@ -57,5 +57,6 @@
 
 .version-select {
     text-align: right;
-    margin: 10 10px;
+    display: inline-block;
+    padding: 0;
 }
