@@ -49,16 +49,16 @@
                     <p>minecraft textures + vanilla datapack</p>
                     <div class="version-select">
                         <label for="minecraft-version">Version</label>
-                        <select name="version" id="minecraft-version">
-                            <option value="ALL">All</option>
+                        <select name="version" id="resource-version" onchange="onAssetsVersion()">
                             <option value="1.18">1.18</option>
                             <option value="1.17">1.17</option>
                             <option value="1.16">1.16</option>
                             <option value="1.15">1.15</option>
                             <option value="1.14">1.14</option>
+                            <option value="1.13">1.13</option>
                         </select>
                     </div>
-                    <a href="" class="button right">Download</a>
+                    <a href="" class="button right" id="download-assets" target="_blank" rel="noopener noreferrer">Download</a>
                 </div>
             </div>
             <div class="download-block">
@@ -68,16 +68,16 @@
                     <p>minecraft sounds</p>
                     <div class="version-select">
                         <label for="minecraft-version">Version</label>
-                        <select name="version" id="minecraft-version">
-                            <option value="ALL">All</option>
+                        <select name="version" id="sound-version" onchange="onSoundsVersion()">
                             <option value="1.18">1.18</option>
                             <option value="1.17">1.17</option>
                             <option value="1.16">1.16</option>
                             <option value="1.15">1.15</option>
                             <option value="1.14">1.14</option>
+                            <option value="1.13">1.13</option>
                         </select>
                     </div>
-                    <a href="" class="button right">Download</a>
+                    <a href="" class="button right" id="download-sounds" target="_blank" rel="noopener noreferrer">Download</a>
                 </div>
             </div>
         </div>
@@ -96,4 +96,6 @@
     </footer>
 
 </body>
+
+<script src="js/download_vir.js"></script>
 </html>
