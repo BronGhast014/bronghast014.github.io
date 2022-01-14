@@ -1,6 +1,9 @@
 var assetVersion = document.getElementById("resource-version");
 var soundVersion = document.getElementById("sound-version");
 
+onAssetsVersion()
+onSoundsVersion()
+
 function onAssetsVersion() {
 
     switch (assetVersion.options[assetVersion.selectedIndex].value) {
