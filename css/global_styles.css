@@ -23,9 +23,10 @@
 .logo-image {
     max-width: 40px;
     border-radius: 100%;
+    transition: .2s;
 }
 .logo-image:hover {
-    transition-duration: 550ms;
+    transition: all .2s;
     background-color: rgb(197, 145, 31);
     position: relative;
     bottom: 5px;

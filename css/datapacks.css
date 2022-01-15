@@ -1,5 +1,10 @@
 .datapack {
     padding: 2% 10%;
+    transition: .2s;
+}
+.datapack:hover {
+    transform: scale(1.03);
+    transition: .2s;
 }
 .datapack .container {
     display: grid;

@@ -19,9 +19,10 @@
     width: 26%;
     display: inline-block;
     margin: 1%;
+    transition: .2s;
 }
 .nav-button:hover {
-    transition: bottom 0.2s, filter 0.2s;
+    transition: all 0.2s;
     position: relative;
     /* filter: blur(0.3em); */
     bottom: 10px;

@@ -1,5 +1,11 @@
 .link-block {
     padding: 2% 15%;
+    transition: .2s;
+}
+.link-block:hover {
+    transform: scale(1.03);
+    transition: .2s;
+    
 }
 .link-block div {
     display: grid;
