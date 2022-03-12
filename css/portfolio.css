@@ -2,11 +2,13 @@
   display: flex;
   flex-wrap: wrap;
   padding: 8 8px;
+  width: 100%;
 }
 
 .column {
   flex: 50%;
   padding: 8 8px;
+  width: 100%;
 }
 
 .column img {
@@ -14,4 +16,11 @@
   vertical-align: middle;
   max-height:390px;
   height:390px;
+}
+
+@media screen and (max-width: 410px){
+   
+  .column img {
+    max-height:200px;
+  }
 }
